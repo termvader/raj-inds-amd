@@ -213,7 +213,7 @@ html {
 
 body {
 	min-height: 100%;
-	background: url(../img/light-blue-bg.jpg);
+	background: url(../img/PeaSoup.png);
 }
 
 p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highlight,.secondary-photo,#goog-wm-qt {
@@ -223,6 +223,7 @@ p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highl
 
 .outer-container {
 	max-width: 94%;
+	margin: 0 auto;
 }
 
 @media (min-width:1600px) {
@@ -248,7 +249,7 @@ p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highl
 
 .inner-container {
 	background: #fff;
-	box-shadow: 0 0 3em 0 rgba(12,54,30,0.25);
+	box-shadow: 0 0 3em 0 rgba(54,20,54,0.5);
 }
 
 .site-header {
@@ -307,10 +308,6 @@ p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highl
 		width: auto;
 	}
 
-}
-
-.site-footer {
-	padding: 6%;
 }
 
 html {
@@ -638,7 +635,7 @@ a:link,a:visited {
 }
 
 a:hover {
-	color: #83ACD1;
+	color: #f99500;
 }
 
 a:focus,a:active {
@@ -770,7 +767,7 @@ img {
 	background: #3498db;
 	color: #f6f6f6 !important;
 	text-shadow: 0 1px 0 #3498db;
-	box-shadow: 0 .25em 0 0 #2077b2;
+	box-shadow: 0 .25em 0 0 #f99500;
 }
 
 .continue-reading:visited,#goog-wm-sb:visited,.button-blue:visited {
@@ -778,7 +775,7 @@ img {
 }
 
 .continue-reading:hover,#goog-wm-sb:hover,.continue-reading:active,#goog-wm-sb:active,.button-blue:hover,.button-blue:active {
-	background: #2077b2;
+	background: #f99500;
 	color: #fff !important;
 	text-shadow: 0 1px 0 #16557e;
 	box-shadow: 0 .25em 0 0 #16557e;
@@ -1300,7 +1297,7 @@ nav a:link,nav a:visited {
 }
 
 nav a:hover {
-	color: #83ACD1;
+	color: #f99500;
 }
 
 nav a:focus,nav a:active {
@@ -1346,7 +1343,7 @@ nav a:focus,nav a:active {
 
 .page-home .nav-home,.page-about .nav-about, .page-products .nav-products, .page-contact .nav-contact{
 	cursor: text;
-	color: #2077b2;
+	color: #f99500;
 	border-bottom: none !important;
 }
 
@@ -1479,12 +1476,18 @@ nav a:focus,nav a:active {
 
 .site-footer {
 	color: #31628E;
-	text-shadow: 0 1px 1px rgba(80,102,117,0.25);
 	text-align: center;
+	padding: 6%;
 }
 
 .site-footer a{
-	color: #FFFFFF;
+	color: #CCCCCC;
+}
+
+.site-footer div{
+	max-width: 400px;
+	background-color: #ffffc9;
+	margin: 0 auto;
 }
 
 .footer-icons {
@@ -1696,7 +1699,7 @@ a.prodimg {
 }
 
 .prodimg img:hover {
-	border: 4px solid #83ACD1;
+	border: 4px solid #f99500;
 }
 
 .prodimg img {
